@@ -37,6 +37,10 @@ The platform also takes security seriously, offering password reset functionalit
 * Django
 * Postgres
 * Django REST Framework
+# Running the App
+--> To run the App, python manage.py runserver
+
+Then, the development server will be started at http://127.0.0.1:8000/
 # HomePage
 ![home page](https://github.com/sandy406/DevSearch/assets/87752847/88b72ec0-1cb8-41e0-8630-c415c93b5a92)
 # ProjectsPage
