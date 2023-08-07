@@ -1,0 +1,29 @@
+{% extends 'main.html'%}
+
+{% block content %}
+
+    <!-- Main Section -->
+    <main class="formPage my-xl">
+        <div class="content-box">
+            <div class="formWrapper">
+                <a class="backButton" href="{% url 'account' %}"><i class="zmdi zmdi-arrow-left"></i></a>
+                <br>
+
+                <form class="form" method="POST" action="">
+                    {% csrf_token %}
+
+                    
+
+                    <div class="form__field">
+                        <p>Are you sure you want to delete "{{object}}"" ?</p>
+                    </div>
+                 
+
+                   
+                    <input class="btn btn--sub btn--lg  my-md" type="submit" value="Submit" />
+                </form>
+            </div>
+        </div>
+    </main>
+
+{% endblock content %}
